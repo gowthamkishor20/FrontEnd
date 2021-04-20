@@ -59,13 +59,12 @@
     width: 10%;
     display:flex;
     object-fit: inherit;
-    border-top-groove
+    border-top:groove;
     /*padding: 20px 20px 12px 12px;*/
 }
 
 .img_card{
     border-radius: 2px;
-    
     position: absolute;
     padding: 5px;
     object-fit: inherit;
