@@ -1,0 +1,79 @@
+/* .img{
+    width: 300px;
+    border: 15px solid blue;
+    padding: 50px;
+    margin: 20px;
+    object-fit: cover;
+} */
+.card_1 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* border:  solid 1px; */
+    transition: 0.3s;
+    border-radius: 5px;
+    color: blue;
+    margin-top: 20px;
+    background-color: white;
+    min-height: 110px;
+    width: auto;
+    display:flex;
+    padding: 20px 20px 12px 12px;
+  }
+.card_2 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* border:  solid 1px; */
+    transition: 0.3s;
+    border-radius: 0px 0px 5px 5px;
+    color: blue;
+    margin-top: 0px;
+    background-color: white;
+    min-height: 100%;
+    width: 55%;
+    display:flex;
+    float: left;
+    padding: 20px 20px 12px 12px;
+}
+.card_3 {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* border:  solid 1px; */
+    transition: 0.3s;
+    border-radius: 5px 5px 5px 5px;
+    color: blue;
+    margin-top: 0px;
+    margin-left: 5%;
+    background-color: white;
+    min-height: 10px ;
+    width: 35%;
+    /* display:flex; */
+    padding: 10px 10px 10px 10px;
+    float: right;
+}
+.card_2_tab {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    /* border:  solid 1px; */
+    transition: 0.3s;
+    border-radius: 0px;
+    color: blue;
+    margin-top: 20px;
+    background-color: white;
+    min-height: 5px;
+    width: 10%;
+    display:flex;
+    object-fit: inherit;
+    border-top:groove;
+    /*padding: 20px 20px 12px 12px;*/
+}
+
+.img_card{
+    border-radius: 2px;
+    position: absolute;
+    padding: 5px;
+    object-fit: inherit;
+    width: 80px;
+}
+
+.name{
+    float: left;
+    position: absolute;
+    width: inherit;
+    display:flex;
+}
